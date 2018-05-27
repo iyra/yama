@@ -1,0 +1,231 @@
+{% extends "base.html" %}
+{% block title %} {{title }} {% endblock %}
+{% block content %}
+<p>My name is Ue Kuniyoshi (国吉 上) and I am an electronic and computer engineering student more interested in philosophy and experimenting with music. We can be friends.</p>
+<p>If you have any comments about these pages, please e-mail me, or if you prefer, contact me through some other means</p>
+<h3>My Essays</h3>
+{{ category_list("essay") }}
+<h3>My Poetry</h3>
+<h4>0. Poems</h4>
+<pre>Recursive titling is my thing now
+Writing help me forget my problems
+My mind can't think how
+Stanzas arrange themselves into columns
+
+Finding rhymes in abstract
+"Words are like bats"
+A non-conformant line for you to scoff at</pre>
+
+<h4>1. Deutsch</h4>
+<pre>S-stutter and
+A thick Schwäbian accent
+Bright eyes of his student band
+Schelling sits front, discontent
+
+Take up chair at Berlin
+Counteract this Hegelianism
+Your coat made of sheepskin
+"Degrades science to bare formalism"</pre>
+
+<h4>2. Bike Chain</h4>
+<pre>Bike chain, rusty chain
+Muddy chain, not coming off,
+D'Angelo's bass
+Friends is nothing
+Music is nothing
+Geist is nothing
+Bike chain is nothing
+"Bike chain" is nothing
+
+I'm up all night, eyes match nettle
+Some stay up too, dockleaf contacts maybe
+Clean one thousand bike chains
+Not if it rains
+
+Avolition who sits with
+Jim O'Rourke on repeat
+Not giving up isn't a feat
+To say I'm trying anyway is cheat
+
+"Just do it" its scream
+Fuck, it isn't what it seems
+I'm going to fail, tears well up
+Bike chain in muddy cup.</pre>
+
+<h4>3. What?</h4>
+<pre>A whole day of my life
+24 hours are gone
+365 days in a year
+let's assume it's not a leap year, hm?
+80 (70?) years in a life
+Tension, DO and NOT-DO
+Their reconciliation in poem
+What have I done this week
+This month
+This year
+21 years</pre>
+
+<h4>4. Hold it</h4>
+<pre>Hold it up so all can see
+I dreamed grandfather
+I wrote a poem
+There is still a pain in my knee
+
+Formed & formless
+Separation from loved is stressful
+Association with the unbeloved is stressful
+Sorrow, lamentation, pain, distress and despair
+Buddha Quotes Trademark
+
+Leave me be when nobody talks
+Let me dream, talk to
+me
+please
+
+Amicus omnibus amicus nemeni
+Right? Do you feel like me
+At home at night
+Formed & formless
+Nama-rupa Name & form
+Dreaming grandfather
+
+No need for crying
+Life is flying, dying.</pre>
+
+<h4>5. Bedsit</h4>
+<pre>Electric humming pervades her body
+Enters via eyes and ears
+Blue light of screen reflecting idolatry
+Her bed time nears
+
+Does she have a hobby?
+What does she do next?
+Her Weetabix gone soggy
+About this she has to text
+
+Pink pajamas are fittingly female
+I search through her tapes for ambience
+Alice in Monsterland leaves a breadcrumb trail
+Her mind has a problem with transients
+
+Even pigs suffer
+Looking around her room before bed
+She sees that vegan poster
+In her dreams the cows lightly tread
+
+Hand snakes down to that most important place
+Imagining the look on her girlfriend's face</pre>
+
+<h4>6. Drum</h4>
+<pre>"In a world gone blind
+I beat the drum of the deathless"
+Such is spoken, beautiful allegory
+No shaggy dog stories
+Nameless venerable sir
+
+Fulfill, fulfill! Commodity screeching
+Innocent child, tick of Value sucks from her back
+Oh she is individual
+Oh she is allowed
+To play the lyre
+with plectrum!
+with fingers!
+throw it into the fires!
+
+Don't talk to me about Nintendo Switch
+Nor your kitsch, "ironic" right?
+Little man with the turban
+A lawyer in Durban
+
+I heard Postone died
+or was that just a rumour?
+I wouldn't have cried
+wouldn't have tried
+Marx's benign tumor
+He had no humor!
+
+Bare my soul
+In poems I could figure
+I really hate this literature
+It's taken its toll
+
+Gegenstand, understand?
+Supersensible world the <i>Absolute</i>
+crude concrete en croute
+The night in which all cows are black
+Tick of value sucks from her back</pre>
+
+<h4>7. Romanian court</h4>
+<pre>March sixteen twenty eighteen
+Romanian court rejects man's claim he's alive
+Unity of body and mind
+Descartes' vending machine.
+
+Freeman and slave
+Patrician and plebian
+Lord and serf
+Guild-master and journeyman
+Oppressor and oppressed
+
+He forgot one: mind and work
+All desire freedom from bondage
+Old Bakunin, worm turns under his boot
+I'd rather be a slave
+if I could get a good grade.</pre>
+
+<h4>8. Platōnicus</h4>
+<pre>A friend to all (amicus omnibus)
+Arm around me, come Communist
+Let's talk, let's eat
+Warmth I lost in the driveway garage
+Turn into Colsehill Parkway
+I'll meet you there, a handshake he'll manage
+
+I'll love you (not in that way)
+Nothing between us, not one wafer
+Atoms silicon close together
+Talk lighter than a feather
+
+Synonymous with non-adulterous
+It doesn't have to be anomalous
+Amore Platōnicus</pre>
+
+<h4>9. Livre de David Allen</h4>
+<pre>Bird-song and stream-sound
+Fuck me, it's just my alarm
+To my side a treasure to be found
+A girl who I couldn't harm
+
+I don't like doing;
+Žižek voice
+Ish it not prishaishly ze bourgeois preshur purshuing?
+Come on, it's not my choice
+
+This is just the way I find myself
+Even your naked body is
+a doing thing, do it to yourself
+Fine, here's a kiss
+
+Don't get up, don't get dressed
+For me, this pace of life is the best</pre>
+
+<h4>10. Legislature</h4>
+<pre>Bustling crows
+Soulless mass
+Ignorant gland
+Oligarchic kapitalist
+Backbencher sloucher
+Skinless face</pre>
+
+<h3>Web curios</h3>
+<span id="date">2018-03-30</span>
+<ul>
+  <li>The source code for the original implementation of Reddit; this is written in Common Lisp and as per instructions <a href="https://www.reddit.com/r/programming/comments/883vzs/old_reddit_source_code/dwi2mfz/">here</a> there might be hope to get it working, though it does seem to depend on a commercial CL implementation. <a href="https://github.com/reddit-archive/reddit1.0">https://github.com/reddit-archive/reddit1.0</a></li>
+  <li>"Unseen 1960s Photos of London’s East End" "Nearly all of Granick’s work was shot on Kodachrome 64, a type of color film that has now been discontinued. “The rarity of archival color pictures is what makes these so unique,” says Dorley-Brown. “Thank God he shot on Kodachrome, it’s so stable that they are as good as the day they were shot and it digitizes very well.”" <a href="https://www.atlasobscura.com/articles/pictures-london-east-end-1960s-color">https://www.atlasobscura.com/articles/pictures-london-east-end-1960s-color</a></li>
+</ul>
+
+<h3>Quotes</h3>
+<ul>
+  <li>"Those who insist on this separation of religion from thinking usually have before their minds the sort of thought that may be styled after-thought. They mean ‘reflective’ thinking, which has to deal with thoughts as thoughts, and brings them into consciousness. Slackness to perceive and keep in view this distinction which philosophy definitely draws in respect of thinking is the source of the crudest objections and reproaches against philosophy. Man — and that just because it is his nature to think — is the only being that possesses law, religion, and morality. In these spheres of human life, therefore, thinking, under the guise of feeling, faith, or generalised image, has not been inactive: its action and its productions are there present and therein contained." (G.W.F Hegel, Introduction of the Encyclopedia Logic, part one of the Encyclopedia of the Philosophical Sciences)</li>
+</ul>
+{% endblock %}

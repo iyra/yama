@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %} {{title }} {% endblock %}
+{% block content %}
+<p>This is my website index page.</p>
+
+<h3>My Essays</h3>
+{{ category_list("essay") }}
+
+<h3>Pages</h3>
+{{ category_list("page") }}
+
+{% endblock %}
